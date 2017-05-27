@@ -1,4 +1,6 @@
-/* toma.css - cascading style sheet for custom semantic html elements */
+/* toma.css - cascading style sheet for custom semantic html elements
+ * use in your webpage - `<link href="https://raw.githubusercontent.com/node5/Sandbox/master/toma.css" rel="stylesheet">` 
+ */
 
 
 
@@ -16,8 +18,25 @@ overlay {
 }
 
 
-/* phrase - a span-like element used to display a slogen or phrase */
+
+/* phrase - a span-like element used to display a slogen or catch phrase */
 phrase {
 	display: block;
 	position: relative;
+}
+
+
+
+/* wallpaper - an element used as a background image (indipendent of the actual background). */
+wallpaper {
+	background-size: cover;
+	display: block;
+	height: 100%;
+	left: 0%;
+	position: fixed;
+	right: 0%;
+	top: 0%;
+	-webkit-filter: blur(0px);
+	width: 100%;
+	z-index: -2;
 }
