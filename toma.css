@@ -23,7 +23,7 @@ overlay {
 phrase {
 	display: block;
 	position: relative;
-	font-size: 200%;
+	-webkit-user-select: none;
 }
 
 
